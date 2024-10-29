@@ -1,0 +1,14 @@
+export const TEXT_FIRST_KANJI_INPUT = "//input[contains(@class, 'Input_input-form_text-first') and @placeholder='例: 御祝']";
+export const TEXT_SECOND_KANJI_INPUT = "//input[contains(@class, 'Input_input-form_text-second') and @placeholder='例: 太郎']";
+export const TEXT_FIRST_KANA_INPUT = "//input[contains(@class, 'Input_input-form_text-first') and @placeholder='例: オイワイ']";
+export const TEXT_SECOND_KANA_INPUT = "//input[contains(@class, 'Input_input-form_text-second') and @placeholder='例: タロウ']";
+export const PHONE_NUMBER_INPUT = "//input[contains(@class, 'Input_input-form_text') and @placeholder='例: 05011122222']";
+export const EMAIL_INPUT = "//input[contains(@class, 'Input_input-form_text') and @placeholder='例: sample@gmail.com']";
+export const CONFIRM_EMAIL_INPUT = "//input[contains(@class, 'Input_input-form_text') and @placeholder='再度同じメールアドレスをご入力ください']";
+export const COUNT_CHILDREN_AND_AGE_ANSWER = "(//textarea[contains(@class, 'Input_input-form_textarea') and @placeholder='回答を記入してください'])[1]";
+export const MESSAGE_ANSWER = "(//textarea[contains(@class, 'Input_input-form_textarea') and @placeholder='回答を記入してください'])[2]";
+export const DISLIKE_ANSWER = "(//textarea[contains(@class, 'Input_input-form_textarea') and @placeholder='回答を記入してください'])[3]";
+export const REQUEST_OR_INQUIRIES_ANWER = "//textarea[contains(@class, 'Input_input-form_textarea') and @placeholder='特に無ければ次にお進みください。']";
+export const PAYMENT_METHOD_DROPDOWN = "//select[contains(@class, 'Input_input-form_pulldown-select')]";
+export const CHECK_OUT_SUBMIT_BUTTON = "//div[contains(@class, 'styles_checkout-input_submit__')]//button";
+export const PAY_CREDIT_CART_BUTTON = "//div[contains(@class, 'PayButtonsModal_PaymentButtonsModalButton__')]//button";
